@@ -1,0 +1,7 @@
+﻿  ChineseFireball.cpp
+  CommonWelsh.cpp
+  Dragon.cpp
+C:\Users\Will\source\repos\Dragon\Dragon\Dragon.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  HungarianHorntail.cpp
+  Generating Code...
+  Dragon.vcxproj -> C:\Users\Will\source\repos\Dragon\x64\Debug\Dragon.exe
