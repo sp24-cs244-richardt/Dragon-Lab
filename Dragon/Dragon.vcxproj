@@ -130,6 +130,7 @@
     <ClCompile Include="ChineseFireball.cpp" />
     <ClCompile Include="CommonWelsh.cpp" />
     <ClCompile Include="Dragon.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="HungarianHorntail.cpp" />
   </ItemGroup>
   <ItemGroup>

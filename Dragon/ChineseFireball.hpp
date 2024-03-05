@@ -11,6 +11,8 @@ class ChineseFireBall : public Dragon {
 private:
 	const string skinColor_ = "scarlet";
 	const string nativeRange_ = "China";
+	int health_;
+	int charisma_;
 	int firePower_;
 public:
 	ChineseFireBall();

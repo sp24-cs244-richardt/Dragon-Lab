@@ -11,6 +11,8 @@ class HungarianHorntail : public  Dragon {
 private:
 	const string skinColor_ = "black";
 	const string nativeRange_ = "Hungary";
+	int health_;
+	int charisma_;
 	int firePower_;
 public:
 	HungarianHorntail();

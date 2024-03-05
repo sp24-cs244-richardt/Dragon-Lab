@@ -9,6 +9,8 @@
 using namespace std;
 
 ChineseFireBall::ChineseFireBall() {
+	health_ = (rand() % 35) + 50;
+	charisma_ = (rand() % 30) + 25;
 	firePower_ = (rand() % 50) + 50;
 }
 
@@ -18,6 +20,8 @@ void ChineseFireBall::Train() {
 	if (firePower_ > 100) {
 		firePower_ = 100;
 	}
+
+	Dragon::Train();
 }
 
 int ChineseFireBall::GetFirePower() {

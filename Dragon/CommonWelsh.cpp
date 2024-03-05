@@ -9,6 +9,8 @@
 using namespace std;
 
 CommonWelsh::CommonWelsh() {
+	health_ = (rand() % 5) + 95;
+	charisma_ = (rand() % 10) + 45;
 	firePower_ = (rand() % 50) + 10;
 	trustFactor_ = 5;
 }
@@ -21,6 +23,8 @@ void CommonWelsh::Train() {
 	if (firePower_ > 100) {
 		firePower_ = 100;
 	}
+
+	Dragon::Train();
 }
 
 int CommonWelsh::GetFirePower() {

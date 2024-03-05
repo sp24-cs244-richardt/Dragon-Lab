@@ -11,6 +11,8 @@ class CommonWelsh : public Dragon {
 private:
 	const string skinColor_ = "green";
 	const string nativeRange_ = "Wales";
+	int health_;
+	int charisma_;
 	int firePower_;
 	int trustFactor_;
 public:

@@ -9,6 +9,8 @@
 using namespace std;
 
 HungarianHorntail::HungarianHorntail() {
+	health_ = (rand() % 30) + 60;
+	charisma_ = (rand() % 20) + 75;
 	firePower_ = (rand() % 75) + 50;
 }
 
@@ -24,6 +26,8 @@ void HungarianHorntail::Train() {
 	if (firePower_ > 100) {
 		firePower_ = 100;
 	}
+
+	Dragon::Train();
 }
 
 int HungarianHorntail::GetFirePower() {

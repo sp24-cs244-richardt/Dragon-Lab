@@ -10,8 +10,10 @@ class Dragon {
 private:
 	string skinColor_;
 	string nativeRange_;
+	int health_;
+	int charisma_;
 	int firePower_;
 public:
-	virtual void Train() = 0;
+	void Train();
 	virtual void Print() = 0;
 };
