@@ -1,3 +1,13 @@
-﻿  main.cpp
+﻿  ChineseFireball.cpp
+  CommonWelsh.cpp
+  Dragon.cpp
+  main.cpp
 C:\Users\WisniewskiWill\source\repos\Dragon-Lab\Dragon\main.cpp(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\WisniewskiWill\source\repos\Dragon-Lab\Dragon\main.cpp(101,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\WisniewskiWill\source\repos\Dragon-Lab\Dragon\main.cpp(117,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\WisniewskiWill\source\repos\Dragon-Lab\Dragon\main.cpp(171,32): warning C4101: 'e': unreferenced local variable
+C:\Users\WisniewskiWill\source\repos\Dragon-Lab\Dragon\main.cpp(214,32): warning C4101: 'e': unreferenced local variable
+C:\Users\WisniewskiWill\source\repos\Dragon-Lab\Dragon\main.cpp(267,32): warning C4101: 'e': unreferenced local variable
+  HungarianHorntail.cpp
+  Generating Code...
   Dragon.vcxproj -> C:\Users\WisniewskiWill\source\repos\Dragon-Lab\x64\Debug\Dragon.exe

@@ -21,14 +21,10 @@ void ChineseFireBall::Train() {
 		firePower_ = 100;
 	}
 
-	Dragon::Train();
+	health_ -= 20;
 }
-
-int ChineseFireBall::GetFirePower() {
-	return firePower_;
-};
 
 void ChineseFireBall::Print()
 {
-	cout << "Chinese Fireball, skin color: scarlet, native range: China, fire power: " << firePower_ << endl;
+	cout << "Chinese Fireball,\tskin color: scarlet,\tnative range: China,\thealth: " << health_ << "\tfire power : " << firePower_ << endl;
 }

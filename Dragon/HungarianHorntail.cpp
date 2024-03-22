@@ -27,14 +27,10 @@ void HungarianHorntail::Train() {
 		firePower_ = 100;
 	}
 
-	Dragon::Train();
+	health_ -= 20;
 }
-
-int HungarianHorntail::GetFirePower() {
-	return firePower_;
-};
 
 void HungarianHorntail::Print()
 {
-	cout << "Hungarian Horntail, skin color: black, native range: Hungary, fire power: " << firePower_ << endl;
+	cout << "Hungarian Horntail,\tskin color: black,\tnative range: Hungary,\thealth: " << health_ << "\tfire power: " << firePower_ << endl;
 }

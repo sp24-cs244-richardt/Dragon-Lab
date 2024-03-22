@@ -24,18 +24,10 @@ void CommonWelsh::Train() {
 		firePower_ = 100;
 	}
 
-	Dragon::Train();
+	health_ -= 20;
 }
-
-int CommonWelsh::GetFirePower() {
-	return firePower_;
-};
-
-int CommonWelsh::GetTrust() {
-	return trustFactor_;
-};
 
 void CommonWelsh::Print()
 {
-	cout << "Common Welsh, skin color: green, native range: Wales, fire power: " << firePower_ << ", trush factor: " << trustFactor_ << endl;
+	cout << "Common Welsh,\tskin color: green,\tnative range: Wales,\thealth: " << health_ << "\tfire power: " << firePower_ << ",\ttrush factor: " << trustFactor_ << endl;
 }

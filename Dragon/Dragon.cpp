@@ -6,7 +6,3 @@
 #include "Dragon.hpp"
 
 using namespace std;
-
-void Dragon::Train() {
-	health_ -= 20;
-}
